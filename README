@@ -1,0 +1,13 @@
+The away extension can be called with no parameter in which case the status displayed will be "Away" with a red light.  If there is a parameter passed, then the status will be set to the passed parameter:
+
+<code>away applesauce</code>
+
+will result in your status being set to "applesauce" with a red light.
+
+The available extension is similar.  If no parameter is passed, then your status will be set as "Available" with a green light.  If you pass a parameter then the status will be set to the parameter like the away extension:
+
+<code>available applesauce</code>
+
+will result in your status being set to "applesauce" with a green light.
+
+If you pass the parameter "tunes" to the available extension then your status will be set to the current song playing in iTunes.  If iTunes is not running then the status will default to "Available" with a green light.
